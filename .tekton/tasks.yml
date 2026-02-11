@@ -2,7 +2,6 @@
 apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
-  namespace: sn-labs-pkrishnasamy
   name: cleanup
 
 spec:
@@ -40,7 +39,6 @@ spec:
 apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
-  namespace: sn-labs-pkrishnasamy
   name: nose
 spec:
     workspaces:
